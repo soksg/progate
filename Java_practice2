@@ -1,9 +1,16 @@
 class Main {
   public static void main(String[] args) {
-    // for文を用いて、繰り返し処理をつくってください
-    for (int i=1; i<=10; i+=1){
-      System.out.println( i + "回目のループです");
-    }
+    // 変数languagesを定義し、配列を代入してください
+    String[] language = {"Ruby", "PHP", "Python"};
+    
+    // インデックス番号が「1」の要素を出力してください
+    System.out.println(language[1]);
+    
+    // インデックス番号が「1」の要素を「Java」で上書きしてください
+    language[1] = Java;
+    
+    // インデックス番号が「1」の要素を出力してください
+    System.out.println(1);
     
   }
 }
