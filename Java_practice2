@@ -20,6 +20,5 @@ class Main {
     if (x>8){
       System.out.println("xは8より大きい");
     }
-
   }
 }
